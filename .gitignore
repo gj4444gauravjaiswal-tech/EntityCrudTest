@@ -1,0 +1,79 @@
+# =========================
+# Visual Studio / .NET
+# =========================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.rsuser
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# ASP.NET / .NET generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+logs/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# User-specific configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Database local files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Publish output
+publish/
+PublishOutput/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Azure / deployment local files
+.azure/

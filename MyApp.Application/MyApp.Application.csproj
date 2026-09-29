@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyApp.Domain\MyApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\City\Interfaces\" />
+    <Folder Include="Features\City\Dtos\" />
+    <Folder Include="Features\City\Services\" />
+    <Folder Include="Features\Employee\Interfaces\" />
+    <Folder Include="Features\Employee\Dtos\" />
+    <Folder Include="Features\Employee\Services\" />
+  </ItemGroup>
+
+</Project>
